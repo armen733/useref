@@ -1,0 +1,12 @@
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.part2{
+    display: flex;
+    gap: 30px;
+}

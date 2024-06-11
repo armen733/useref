@@ -1,0 +1,32 @@
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.smartpic{
+    width: 200px;
+    height: 40px;
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    background-color: white;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffd20a;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .btn:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
